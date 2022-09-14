@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=puzzle
-comment1.params=
-comment1.target=puzzle()
-comment2.params=e
-comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
-comment3.params=
-comment3.target=void\ Puzzle_game()
-numComments=4

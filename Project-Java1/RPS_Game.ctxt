@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=RPS_Game
-comment1.params=
-comment1.target=void\ RPS()
-comment2.params=c1\ p1
-comment2.target=void\ compare(int,\ int)
-numComments=3
