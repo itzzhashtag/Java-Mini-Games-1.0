@@ -1,98 +1,74 @@
-import java.awt.*;
-import java.awt.event.*;
-import javax.swing.*;
-import java.util.*;
-public class RPS_Games extends JFrame implements ActionListener 
+import java.util.Scanner;
+import javax.swing.JOptionPane;
+import java.util.List;
+//import java.util.random.*;
+import java.util.Random;
+import java.util.ArrayList;
+public class RPS_Games 
 {
-    private JButton rockButton, paperButton, scissorsButton;
-    private JTextField textField, textField2;
-    public static int RPS() 
-    {
-        RPS_Games paper = new RPS_Games();
-        paper.setSize(210,200); // Setting up the pane
-        paper.createGUI();/*www.j  av  a 2s  .  co m*/
-        paper.show();
-        return 0;
-    }
-    private void createGUI() 
-    {
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
-        Container window = getContentPane();
-        window.setLayout(new FlowLayout());
-
-        textField = new JTextField(15); // Setting up the buttons/fields
-        window.add(textField);
-
-        textField2 = new JTextField(15);
-        window.add(textField2);
-
-        rockButton = new JButton("Rock");
-        window.add(rockButton);
-        rockButton.addActionListener(this);
-
-        paperButton = new JButton("Paper");
-        window.add(paperButton);
-        paperButton.addActionListener(this);
-
-        scissorsButton = new JButton("Scissors");
-        window.add(scissorsButton);
-        scissorsButton.addActionListener(this);
-    }
-    public void actionPerformed(ActionEvent event) 
-    {
-        Object source = event.getSource();
-        int playerChoice; 
-        int compChoice;   
-        String winner;
-        Random randomSeed = new Random(); 
-        if (source == rockButton) 
-        { 
-            playerChoice = 0;
+	
+	public static int RPS() 
+	{
+		JOptionPane.showMessageDialog(null,"Welcome to Stone,Paper and Scissors game");
+		int key =1;
+		do 
+		{
+			List<Integer> list = new ArrayList<Integer>();
+			list.add(1);
+			list.add(2);
+			list.add(3);
+			Random rn = new Random();
+			int answer = rn.nextInt(3) + 1;
+                	//player();
+			String[] options={"Stone","Paper","Scissors","Exit"};
+			int playerinput = JOptionPane.showOptionDialog(null,"Choose the option","Option",JOptionPane.YES_NO_CANCEL_OPTION,JOptionPane.INFORMATION_MESSAGE,null,options,0);
+			int flag = 0;
+			switch(playerinput) 
+			{
+				case 0:
+					flag =1;
+					compare(answer,flag);
+					break;
+				case 1:
+					flag=2;
+					compare(answer,flag);
+					break;
+				case 2:
+					flag = 3;
+					compare(answer,flag);
+					break;
+				case 3:
+					key = 0;
+					JOptionPane.showMessageDialog(null, "Thankyou! Visit again.");
+					break;
+				default:
+					JOptionPane.showMessageDialog(null, "Wrong Choice!\\n Try Again :");
+					continue;
+			}
+        	}while(key!=0);	
+                return 0;
         }
-        else if (source == paperButton)
-        { 
-            playerChoice = 1;
-        } 
-        else 
-        {
-            playerChoice = 2; 
-        }
-        compChoice = randomSeed.nextInt(3); 
-        winner = findWinner(playerChoice, compChoice);
-        textField.setText("Winner is " + winner + " ❤️"); 
-        if (compChoice == 0) 
-        { 
-            textField2.setText("COMP choice is rock");
-        } else if (compChoice == 1) 
-        {
-            textField2.setText("COMP choice is paper");
-        } else {
-            textField2.setText("COMP choice is scissors");
-        }
-    }
-    private String findWinner(int playerChoice, int compChoice) 
-    {
-        String winner;
-        if (playerChoice == compChoice) 
-        { 
-            winner = "None, It's a tie";
-        } 
-        else if (playerChoice == 0 && compChoice == 1) 
-        {
-            winner = "COMP"; 
-        } 
-        else if (playerChoice == 1 && compChoice == 2) 
-        {
-            winner = "COMP"; 
-        } 
-        else if (playerChoice == 2 && compChoice == 0) 
-        {
-            winner = "COMP"; 
-        } 
-        else 
-        {
-            winner = "Player"; 
-        } 
-        return winner; 
-    }
+	public static void compare(int c1,int p1) 
+	{
+		int c,p;
+		c=c1;
+		p=p1;
+		JOptionPane.showMessageDialog(null, "Comp ->"+c+" : You ->"+p);
+		if(c == p) 
+		{	
+			JOptionPane.showMessageDialog(null, "\nDraw\n\tRetry : ");
+		
+		}
+		
+		else if(c==1 && p ==2 || c==2 && p==3 || c==3 && p==1) 
+		{
+			JOptionPane.showMessageDialog(null,"\n\tYou  win!\n Retry : ");
+		}
+		
+		else if(c==1 && p==3 || c==3 && p==2 || c==2 && p==1) 
+		{
+			JOptionPane.showMessageDialog(null,"\n\tYou  lose :)\n Retry : ");
+
+		}
+	}
 }
