@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=mapbrick
-comment1.params=row\ col
-comment1.target=mapbrick(int,\ int)
-comment2.params=g
-comment2.target=void\ draw(java.awt.Graphics2D)
-comment3.params=val\ row\ col
-comment3.target=void\ setBrickval(int,\ int,\ int)
-numComments=4

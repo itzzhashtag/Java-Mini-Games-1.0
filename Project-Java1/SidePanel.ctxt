@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=SidePanel
-comment0.text=\r\n\ The\ {@code\ SidePanel}\ class\ is\ responsible\ for\ displaying\ statistics\ and\r\n\ controls\ to\ the\ player.\r\n\ @author\ Brendan\ Jones\r\n\r\n
-comment1.params=g
-comment1.target=void\ paintComponent(java.awt.Graphics)
-numComments=2

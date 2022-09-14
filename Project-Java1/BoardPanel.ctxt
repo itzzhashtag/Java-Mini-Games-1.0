@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=BoardPanel
-comment0.text=\r\n\ The\ {@code\ BoardPanel}\ class\ is\ responsible\ for\ managing\ and\ displaying\ the\r\n\ contents\ of\ the\ game\ board.\r\n\ @author\ Brendan\ Jones\r\n\r\n
-comment1.params=
-comment1.target=void\ clearBoard()
-comment1.text=\r\n\ Clears\ all\ of\ the\ tiles\ on\ the\ board\ and\ sets\ their\ values\ to\ null.\r\n
-comment2.params=g
-comment2.target=void\ paintComponent(java.awt.Graphics)
-numComments=3
