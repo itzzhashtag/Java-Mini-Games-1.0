@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Server
+comment1.params=
+comment1.target=Server()
+comment2.params=ae
+comment2.target=void\ mouseClicked(java.awt.event.MouseEvent)
+comment3.params=ae
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.params=out
+comment4.target=javax.swing.JPanel\ formatLabel(java.lang.String)
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6
