@@ -1,4 +1,4 @@
-# 🎮 Project Java1 – Classic Mini Games Suite
+# 🎮 Project Java Games – Classic Mini Games Suite
 
 A fun-filled Java project featuring a collection of classic games wrapped in a simple and intuitive GUI. Designed for both learning and nostalgia! 🚀
 
