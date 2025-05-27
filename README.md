@@ -52,7 +52,7 @@ A fun-filled Java project featuring a collection of classic games wrapped in a s
 
 ## 👤 Author & Contact
 
-📧 <strong>Email:</strong> <a href="mailto:micro.aniket@gmail.com">micro.aniket@example.com</a><br>
+📧 <strong>Email:</strong> <a href="mailto:micro.aniket@gmail.com">micro.aniket@gmail.com</a><br>
 💼 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/itzz-hashtag/">itzz-hashtag</a><br>
 🐙 <strong>GitHub:</strong> <a href="https://github.com/itzzhashtag">itzzhashtag</a><br>
 📸 <strong>Instagram:</strong> <a href="https://instagram.com/itzz_hashtag">@itzz_hashtag</a>
