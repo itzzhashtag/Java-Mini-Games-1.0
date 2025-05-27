@@ -6,15 +6,14 @@
 <img src="https://img.shields.io/badge/Status-Working-brightgreen?style=for-the-badge&logo=arduino" alt="Status Badge" />
 <img src="https://img.shields.io/badge/Built%20with-Java-red?style=for-the-badge&logo=java&logoColor=white" alt="Java Badge" />
 <img src="https://img.shields.io/badge/License-Personal--Use-orange?style=for-the-badge" alt="License Badge" />
-
-
 </div>
 
-##
- 
-> A fun-filled Java project featuring a collection of classic games wrapped in a simple and intuitive GUI.
-> 
-> Designed for both learning and nostalgia! 🚀
+---
+
+<div align="center">
+A fun-filled Java project featuring a collection of classic games wrapped in a simple and intuitive GUI.
+Designed for both learning and nostalgia! 🚀
+</div>
 
 ---
 
