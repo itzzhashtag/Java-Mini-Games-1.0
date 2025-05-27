@@ -7,6 +7,7 @@
 <img src="https://img.shields.io/badge/Built%20with-Arduino-blue?style=for-the-badge&logo=arduino" alt="Arduino Badge" />
 <img src="https://img.shields.io/badge/License-Personal--Use-orange?style=for-the-badge" alt="License Badge" />
 
+
 </div>
 
 > A fun-filled Java project featuring a collection of classic games wrapped in a simple and intuitive GUI.
