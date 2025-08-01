@@ -1,0 +1,32 @@
+#BlueJ class context
+comment0.target=Minesweeper
+comment1.params=
+comment1.target=Minesweeper()
+comment1.text=\r\n\ \ \ \ @param\ size\ determines\ the\ size\ of\ the\ board\r\n
+comment10.params=me
+comment10.target=void\ mouseReleased(java.awt.event.MouseEvent)
+comment11.params=me
+comment11.target=void\ mouseEntered(java.awt.event.MouseEvent)
+comment12.params=me
+comment12.target=void\ mouseExited(java.awt.event.MouseEvent)
+comment2.params=m
+comment2.target=void\ takeTheL(int)
+comment2.text=\r\n\ Function\ to\ check\ whether\ user\ has\ lost\ the\ game\ (\ i.e\ clicked\ a\ mine).\r\n\ @param\ m\ indicated\ whether\ the\ function\ has\ been\ called\ when\ user\ clicks\ a\ mine(\ m\=1)\r\n\ or\ when\ he\ clicks\ the\ give\ up\ button.(m\ \=\ any\ other\ integer).\r\n\ Shows\ a\ dialog\ box\ which\ tells\ the\ user\ that\ they\ have\ lost\ the\ game.\r\n
+comment3.params=
+comment3.target=void\ takeTheW()
+comment3.text=\r\n\ Function\ to\ check\ whether\ user\ has\ won\ or\ not\r\n\ It\ performs\ this\ by\ checking\ whether\ a\ cell\ that\ is\ NOT\ a\ mine\r\n\ remains\ to\ be\ clicked\ by\ the\ user.\r\n\ (Works\ because,\ when\ a\ user\ clicks\ a\ button,\ it\ is\ disabled\ to\ avoid\ further\ moves\ on\ the\ same\ cell).\r\n\ Function\ prints\ a\ pop-up\ message\ congratulating\ user\ on\ victory.\r\n
+comment4.params=ae
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment5.params=s
+comment5.target=void\ createMines(int)
+comment5.text=\r\n\ Function\ creates\ mines\ at\ random\ positions.\r\n\ @param\ s\ the\ size\ of\ the\ board(row\ or\ column\ count)\r\n
+comment6.params=toClear
+comment6.target=void\ dominoEffect(java.util.ArrayList)
+comment6.text=\r\n\ This\ function,\ called\ the\ domino\ effect,\ is\ an\ implementation\ of\ the\ idea\ that,\r\n\ when\ a\ cell\ with\ no\ surrounding\ mines\ is\ clicked,\ there's\ no\ point\ in\ user\ clicking\r\n\ all\ eight\ surrounding\ cells.\ Therefore,\ all\ surrounding\r\n\ cells'\ counts\ will\ be\ displayed\ in\ corresponding\ cells.\ \r\n\ The\ above\ is\ done\ recursively.\r\n\ @param\ toClear\ the\ ArrayList\ which\ is\ passed\ to\ the\ function\ with\ positions\ in\ array\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ that\ are\ zero,\ and\ are\ subsequently\ clicked.\r\n
+comment7.params=
+comment7.target=void\ main()
+comment8.params=me
+comment8.target=void\ mouseClicked(java.awt.event.MouseEvent)
+comment9.params=me
+comment9.target=void\ mousePressed(java.awt.event.MouseEvent)
+numComments=13
