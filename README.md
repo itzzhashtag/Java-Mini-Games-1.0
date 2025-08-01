@@ -80,6 +80,38 @@ Designed for both learning and nostalgia! 🚀
 - Export stats and gameplay logs
 
 ---
+## 📷 System Diagram (Overview using BlueJ)
+
+<img width="1061" height="619" alt="image" src="https://github.com/user-attachments/assets/056a821a-927f-4b06-92d6-ebfbefe02bde" />
+
+---
+
+## 📷 The Game  
+
+<img width="423" height="152" alt="image" src="https://github.com/user-attachments/assets/b673b566-3580-4d3e-9c91-708daea7ba2c" /><br>
+<img width="439" height="435" alt="image" src="https://github.com/user-attachments/assets/db9dd0e2-d867-42d9-a395-37862f372ed0" /><br>
+For 0<br><img width="867" height="609" alt="image" src="https://github.com/user-attachments/assets/badbf731-1ec5-4a48-8968-bcb901da6ce9" /><br>
+For 1<br><img width="667" height="425" alt="image" src="https://github.com/user-attachments/assets/c711ae8d-33d1-46ed-9277-c310e84d762e" /><br>
+For 2<br><img width="593" height="739" alt="image" src="https://github.com/user-attachments/assets/6137ed8b-0dae-46ba-aad3-9e0b4f6ec7a9" /><br>
+For 3<br><img width="298" height="365" alt="image" src="https://github.com/user-attachments/assets/9ac0dfe4-1d47-42c8-a325-ac5898e10e32" /><br>
+<img width="371" height="518" alt="image" src="https://github.com/user-attachments/assets/c2ff18d1-376e-4b74-acb3-0a2e2081ec51" /><br>
+For 4<br><img width="365" height="153" alt="image" src="https://github.com/user-attachments/assets/ec47f9e6-a2f6-42d6-b5af-54e193e1a3c5" />
+<img width="328" height="152" alt="image" src="https://github.com/user-attachments/assets/6fcbf5f4-2883-4875-aafc-79668020afab" />
+<img width="330" height="177" alt="image" src="https://github.com/user-attachments/assets/2302c8b7-a7c7-4221-894f-1f5162534f10" /><br>
+
+For 5<br><img width="1001" height="664" alt="image" src="https://github.com/user-attachments/assets/26613dc0-1ea9-4c02-bd20-d8d33bf79b9e" /><br>
+For 6<br><img width="683" height="723" alt="image" src="https://github.com/user-attachments/assets/6cf2eeb2-81a3-44eb-89cb-02258da7c309" /><br>
+For 7<br><img width="855" height="742" alt="image" src="https://github.com/user-attachments/assets/5c788afb-d5eb-4b37-91fe-3b56160110bb" /><br>
+For 8<br><img width="1253" height="781" alt="image" src="https://github.com/user-attachments/assets/3a5af8fd-7936-4008-8d87-b392e82d8bc5" /><br>
+<img width="1252" height="783" alt="image" src="https://github.com/user-attachments/assets/ec2cc4d6-b253-4bd7-96be-75c7e7a28ca1" /><br>
+For 9<br><img width="1106" height="1040" alt="image" src="https://github.com/user-attachments/assets/7fdbede5-63ac-4a78-8b2a-1b883e44a50f" /><br>
+
+For Random Number other than 0-9
+<br> <img width="438" height="440" alt="image" src="https://github.com/user-attachments/assets/bd89a390-3874-44b2-aaf4-bc4712258646" />
+<img width="328" height="152" alt="image" src="https://github.com/user-attachments/assets/2217abaa-84e1-4502-a454-4f41266f5c64" />
+<br>
+
+---
 
 ## 📜 License
 
