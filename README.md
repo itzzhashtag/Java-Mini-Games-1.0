@@ -81,10 +81,18 @@ Designed for both learning and nostalgia! 🚀
 
 ---
 
-## 📄 License
+## 📜 License
 
-Licensed under the **MIT License** – _feel free to use, modify, and share!_ 🎓
+This project is for **personal/home use only**.  
+For any collaboration, replication, or commercial adaptation, contact the author.
 
 ---
 
-> ⭐ *If you like this project, consider giving it a star on GitHub! It motivates me to build more!*  
+## ❤️ Acknowledgements
+
+This is a solo passion project, built with countless nights of tinkering, testing, and debugging.  
+If you find it useful or inspiring, feel free to ⭐ the repository or connect with me on social media!
+
+---
+
+> _“If the mind can create, the hands can translate.”_ – Hashtag
