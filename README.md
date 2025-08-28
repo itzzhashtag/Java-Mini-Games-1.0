@@ -12,7 +12,7 @@
 
 <div align="center">
 A fun-filled Java project featuring a collection of classic games wrapped in a simple and intuitive GUI.
-Designed for both learning and nostalgia! 🚀
+Designed for both learning and nostalgia!  🚀
 </div>
 
 ---
